@@ -89,7 +89,7 @@ class DnDCharacterProfileSheet extends React.Component<
                   fontSize: '11px'
                 }}
               >
-                Character Name
+                Имя персонажа
               </label>
             </div>
             <div className='col-md-9 pr-2 pl-2'>
@@ -103,7 +103,7 @@ class DnDCharacterProfileSheet extends React.Component<
                         this.updateCharacter('age', e.target.value)
                       }
                     />
-                    <label>Age</label>
+                    <label>Возраст</label>
                   </div>
                   <div className='col-md-4 col-6 pl-0 pr-0'>
                     <input
@@ -113,7 +113,7 @@ class DnDCharacterProfileSheet extends React.Component<
                         this.updateCharacter('height', e.target.value)
                       }
                     />
-                    <label>Height</label>
+                    <label>Рост</label>
                   </div>
                   <div className='col-md-4 col-6 pl-0 pr-0'>
                     <input
@@ -123,7 +123,7 @@ class DnDCharacterProfileSheet extends React.Component<
                         this.updateCharacter('weight', e.target.value)
                       }
                     />
-                    <label>Weight</label>
+                    <label>Вес</label>
                   </div>
                 </div>
                 <div className='row pl-3 pr-3'>
@@ -135,7 +135,7 @@ class DnDCharacterProfileSheet extends React.Component<
                         this.updateCharacter('eyes', e.target.value)
                       }
                     />
-                    <label>Eyes</label>
+                    <label>Глаза</label>
                   </div>
                   <div className='col-md-4 col-6 pl-0 pr-0'>
                     <input
@@ -145,7 +145,7 @@ class DnDCharacterProfileSheet extends React.Component<
                         this.updateCharacter('skin', e.target.value)
                       }
                     />
-                    <label>Skin</label>
+                    <label>Цвет кожи</label>
                   </div>
                   <div className='col-md-4 col-6 pl-0 pr-0'>
                     <input
@@ -155,7 +155,7 @@ class DnDCharacterProfileSheet extends React.Component<
                         this.updateCharacter('hair', e.target.value)
                       }
                     />
-                    <label>Hair</label>
+                    <label>Волосы</label>
                   </div>
                 </div>
               </div>
@@ -173,7 +173,7 @@ class DnDCharacterProfileSheet extends React.Component<
                   }}
                 />
                 <label className='d-and-d-title' style={{ marginTop: '10px' }}>
-                  Character Appearance
+                  Внешний вид
                 </label>
               </div>
 
@@ -189,7 +189,7 @@ class DnDCharacterProfileSheet extends React.Component<
                   rows={26}
                 />
                 <label className='d-and-d-title' style={{ marginTop: '10px' }}>
-                  Character Backstory
+                  Предыстория персонажа
                 </label>
               </div>
             </div>
@@ -225,7 +225,7 @@ class DnDCharacterProfileSheet extends React.Component<
                   <div className='col-md-6'>
                     <div className='d-and-d-box gray noborder' style={{marginBottom: '13px'}}>
                       <div className='d-and-d-faction-input'>
-                        <label>Faction</label>
+                        <label>Фракция</label>
                         <input
                           type='text'
                           value={character.faction ? character.faction : ''}
@@ -258,7 +258,7 @@ class DnDCharacterProfileSheet extends React.Component<
                 </div>
                 
                 <label className='d-and-d-title' style={{ marginTop: '10px' }}>
-                  Allies & Organisations
+                  Союзники
                 </label>
               </div>
               
@@ -291,7 +291,7 @@ class DnDCharacterProfileSheet extends React.Component<
                 </div>
 
                 <label className='d-and-d-title' style={{ marginTop: '10px' }}>
-                  Additional Features & Traits
+                  Дополнительные черты
                 </label>
               </div>
 
@@ -334,7 +334,7 @@ class DnDCharacterProfileSheet extends React.Component<
                 </div>
                 
                 <label className='d-and-d-title' style={{ marginTop: '4px' }}>
-                  Treasure
+                  Сокровища
                 </label>
               </div>
             </div>

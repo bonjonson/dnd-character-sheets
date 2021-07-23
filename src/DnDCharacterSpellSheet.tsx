@@ -94,7 +94,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                   fontSize: '11px'
                 }}
               >
-                Spellcasting Class/Ability
+                Класс заклинаний/способностей
               </label>
             </div>
             <div className='col-md-9 pr-2 pl-2' style={{ marginTop: '18px' }}>
@@ -116,7 +116,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Prepared Spells
+                      Подготовленные заклинания
                     </label>
                     <label
                       style={{
@@ -126,7 +126,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Total
+                      Всего
                     </label>
                   </div>
                   <div className='col-4 pr-4 pl-4'>
@@ -145,7 +145,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Spell Save DC
+                      Спасбросок против заклинаний
                     </label>
                   </div>
                   <div className='col-4 pr-4 pl-4'>
@@ -164,7 +164,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Spell Attack
+                      Бонус атаки
                     </label>
                     <label
                       style={{
@@ -174,7 +174,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Bonus
+                      Бонус
                     </label>
                   </div>
                 </div>

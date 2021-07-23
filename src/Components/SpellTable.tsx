@@ -79,7 +79,7 @@ function SpellTable(props: {
         <div className='d-and-d-spell-level'>{props.level}</div>
         {props.level === 0 ? (
           <div className='d-and-d-spell-slots'>
-            <label>Cantrips</label>
+            <label>Фокусы</label>
           </div>
         ) : (
           <div className='d-and-d-spell-slots'>
@@ -104,9 +104,9 @@ function SpellTable(props: {
           <thead>
             <tr>
               <th style={{ width: '30px', position: 'absolute', left: '-7px' }}>
-                Prepared
+                Подготовленные
               </th>
-              <th>Spell Name</th>
+              <th>Название заклинания</th>
             </tr>
           </thead>
         ) : null}
