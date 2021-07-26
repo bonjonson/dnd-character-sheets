@@ -116,7 +116,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Подготовленные заклинания
+                      Всего подготовленных
                     </label>
                     <label
                       style={{
@@ -126,7 +126,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Всего
+                      заклинаний
                     </label>
                   </div>
                   <div className='col-4 pr-4 pl-4'>
@@ -174,7 +174,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Бонус
+                      заклинаний
                     </label>
                   </div>
                 </div>

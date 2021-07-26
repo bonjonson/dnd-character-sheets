@@ -70,9 +70,9 @@ function SpellTable(props: {
     <div className={classes} style={props.style}>
       {props.showLabels ? (
         <div className='d-and-d-spell-header-labels'>
-          <label style={{ width: '20px' }}>Spell Level</label>
-          <label style={{ width: '80px' }}>Slots Total</label>
-          <label style={{ width: 'calc(100% - 100px)' }}>Slots Remaining</label>
+          <label style={{ width: '20px' }}>Уровень заклинаний</label>
+          <label style={{ width: '80px' }}>Всего ячеек</label>
+          <label style={{ width: 'calc(100% - 100px)' }}>Оставшиеся ячейки</label>
         </div>
       ) : null}
       <div className='d-and-d-spell-header'>

@@ -199,7 +199,7 @@ class DnDCharacterProfileSheet extends React.Component<
                 <div className='row'>
                   <div className='col-md-6 border-right'>
                     <div className='d-and-d-gray-text' style={{ paddingBottom: '1px' }}>
-                      <label style={{ width: '70px' }}>Faction Rank</label>
+                      <label style={{ width: '70px' }}>Звание в фракции</label>
                       <input
                         type='text'
                         style={{ width: 'calc(100% - 70px)' }}
@@ -300,7 +300,7 @@ class DnDCharacterProfileSheet extends React.Component<
                   <div className='col-md-6 border-right'>
                     <StatRow
                       classes='m-2 rounded rounded-sides wide-input'
-                      label='Total Non-Consumable Magic Items'
+                      label='Всего нерасходуемых магических предметов'
                       name='totalNonConsumableMagicItems'
                       value={character.totalNonConsumableMagicItems}
                       onChange={(name: string, value: any) => {
