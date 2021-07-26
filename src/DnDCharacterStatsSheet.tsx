@@ -660,7 +660,7 @@ class DnDCharacterStatsSheet extends React.Component<
                         className='d-and-d-title'
                         style={{ marginTop: '5px' }}
                       >
-                        Hit Dice
+                        Кости здоровья
                       </label>
                     </div>
                   </div>
